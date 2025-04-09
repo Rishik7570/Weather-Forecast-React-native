@@ -11,7 +11,6 @@ import DailyForecast from '../components/DailyForecast';
 
 const Home = () => {
 
-
   return (
     <View style={styles.container}>
       <StatusBar barStyle={'default'} />
@@ -20,16 +19,16 @@ const Home = () => {
         source={require('../assets/images/bg.png')}
         style={styles.bg}
       />
-      <SafeAreaView style={styles.safeArea}>
-        {/* Search section */}
-        <SearchBar />
+        <SafeAreaView style={styles.safeArea}>
+          {/* Search section */}
+          <SearchBar />
 
-        {/* Forecast section */}
-        <Forecast />
+          {/* Forecast section */}
+          <Forecast />
 
-        {/* Daily Forecast */}
-        <DailyForecast />
-      </SafeAreaView>
+          {/* Daily Forecast */}
+          <DailyForecast />
+        </SafeAreaView>
     </View>
   );
 };
