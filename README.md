@@ -11,8 +11,8 @@ A clean and simple weather app built using **React Native**.
 
 ## Screenshots
 
-![Home Screen](./src/assets/images/homeSS.jpg)
-![Search bar](./src//assets/images/searchSS.jpg)
+<img src="./src/assets/images/homeSS.jpg" width="300">
+<img src="./src//assets/images/searchSS.jpg" width="300">
 
 ## Installation
 
